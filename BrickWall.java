@@ -80,38 +80,4 @@ public class BrickWall{
 		System.out.println(numberOfBricks);
 		return numberOfBricks;
 	}
-	
-	
-	public static void main(String[] args) {
-		BrickWall w=new BrickWall();
-		List<List<Integer>> wall=new ArrayList<List<Integer>>();
-		wall.add(new ArrayList<Integer>());
-		wall.get(0).add(0,7);
-		wall.get(0).add(1,1);
-		wall.get(0).add(2,2);
-//		wall.get(0).add(3,1);
-		wall.add(new ArrayList<Integer>());
-		wall.get(1).add(0,3);
-		wall.get(1).add(1,5);
-		wall.get(1).add(2,1);
-		wall.get(1).add(3,1);
-		wall.add(new ArrayList<Integer>());
-		wall.get(2).add(0,10);
-//		wall.get(2).add(1,3);
-//		wall.get(2).add(2,2);
-//		wall.add(new ArrayList<Integer>());
-//		wall.get(3).add(0,2);
-//		wall.get(3).add(1,4);
-//		wall.add(new ArrayList<Integer>());
-//		wall.get(4).add(0,3);
-//		wall.get(4).add(1,1);
-//		wall.get(4).add(2,2);
-//		wall.add(new ArrayList<Integer>());
-//		wall.get(5).add(0,1);
-//		wall.get(5).add(1,3);
-//		wall.get(5).add(2,1);
-//		wall.get(5).add(3,1);
-		w.leastBricks(wall);
-			
-	}
 }
