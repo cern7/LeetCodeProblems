@@ -31,7 +31,7 @@ public class MatchsticksToSquare {
 				 * if not true
 				 * if the array value isn't less or equal to side
 				 * length and if the value isn't already used
-				 * set it to false in the auxiliary array List				 * 
+				 * set it to false in the auxiliary array List
 				 */
 				if (!result) 
 					chosen.set(i, false);
