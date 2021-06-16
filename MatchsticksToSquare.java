@@ -85,7 +85,7 @@ public class MatchsticksToSquare {
 	public static void main(String[] args) {
 		MatchsticksToSquare obj=new MatchsticksToSquare();
 //		int [] side = {1,2,2,1,2};
-		int [] side = {1,5,4,3,1,5,1};//{1,1,1,3,4,5,5} sum=20
+		int [] side = {1,5,4,3,1,5,1};
 		System.out.println(obj.makesquare(side));
 		
 	}
